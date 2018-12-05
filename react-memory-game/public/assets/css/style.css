@@ -55,3 +55,16 @@ body {
 .blackBack:hover {
     transform: scale(1.05);
 }
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .fluid-container {
+        background-size: 50%;
+    }
+    .pic {
+        height: 100px;
+        width: 100px; 
+    }
+} 
