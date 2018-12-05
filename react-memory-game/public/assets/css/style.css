@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1502481686408-d428268c24ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"); 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+.pic {
+    height: 60px;
+    width: 60px; 
+    margin: 20px auto; 
+    border: 2px solid white; 
+    border-radius: 50%;
+    transition: .25s ease; 
+    box-shadow: 0px 0px 40px 10px black;
+}
+
+.pic:hover {
+    transform: scale(1.3)
+}
+
+.center {
+    text-align: center; 
+}
+
+.navbars {
+    padding: 90px;
+    margin-bottom: -10px;
+}
+.fluid-container {
+    background-image: url("https://famfonts.com/wp-content/uploads/oakland-raiders-wide.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 80%; 
+}
+
+.score {
+    color: white;
+    margin-top: 10px;   
+    font-size: 30px; 
+}
+
+.scoreText {
+    color: white;
+}
+
+.blackBack {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 20px; 
+    padding: 10px;
+    transition: .25s ease; 
+    margin-bottom: 60px; 
+}
+
+.blackBack:hover {
+    transform: scale(1.05);
+}
